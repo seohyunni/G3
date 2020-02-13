@@ -1,5 +1,3 @@
-<!-- 참고(페이지 소스) http://www.dokdo.go.kr/pages/s06/page.html?mc=7807-->
-
 <!-- 소통관 메인페이지 -->
 
 <!DOCTYPE html>
@@ -8,6 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3_소통관</title>
+
+    <!--사이드 메뉴 바 마우스 올리면 색 변함-->
     <style>
         ul  {
           list-style-type: none;
@@ -24,7 +24,7 @@
           text-decoration: none;
         }
         
-        /* Change the link color on hover */
+        
         li a:hover {
           background-color: #555;
           color: white;
@@ -36,76 +36,149 @@
 
 
     <!-- SIDE MENU BAR -->
+
+    <style type ="text/css">
+        #side_left{
+        width:100px;
+        height:300px;
+        float:left;
+        margin:5px;
+        }
     
-    <ul>
-        <div id ="side">
-        <center>
-            <h3 class = "title"> 소통관 </h3>
-            
-            <ul class='snb'><li class='hover'>
-            <a href = "./sotong.html" target="self">공지사항</a></li>
-            <ul class='snb'>
-            <a href = "./freeboard.html" target="self">자유게시판</a></li>
-            <ul class='snb'>
-            <a href = "./QnA.html" target = "self">Q&A</a></li>
-        </center></div>
-    </ul>
-
-
     
-    <!-- CONTENT -->
-    <!-- div id, class 들어갈 자리 -->
-    <!-- <h1 class = "cont_title"> 공지사항 </h1> -->
-    <!--div class 들어갈 자리 -->
+        /*#side{
+        float:left;
+        width:50px;
+        height:400px;
+    
+      }*/
 
-    <!-- 글 목록 -->
+      #side_left_box{
+        width:95%;
+        height:45%;
+        float:left;
+        margin:5px;
+        }
+    
+    </style>
 
-    <!--<form id = "moveForm action="#">
-        <table class = "boardList" boarder = "0" cellpadding="0"
-        cellspacing="0" summary="공지사항 게시글 번호, 제목, 작성자, 등록일, 조회수">
-        <caption>공지사항 게시글 목록</caption>
+
+
+<ul>
+    <div id ="side_left">
+        <div id="side_left_box">
+    <center>
+        <h3 class = "title"> 소통관 </h3>
+        
+        <ul class='snb'><li class='hover'>
+        <a href = "./sotong.html" target="self">공지사항</a></li>
+        <ul class='snb'><li class='hover'>
+        <a href = "./freeboard.html" target="self">자유게시판</a></li>
+        <ul class='snb'><li class='hover'>
+        <a href = "./QnA.html" target = "self">Q&A</a></li>
+    </center></div></div>
+</ul>
+
+
+<!--게시판-->
+
+<style type ="text/css">
+    .sub_nus,.sub_news th,.sub_news td{border:0}
+        .sub_news a{color:#383838;text-decoration:none}
+        .sub_news{width:100%;border-bottom:1px solid #999; color:#666; 
+        font-size:12px; table-layout:fixed}
+        .sub_news caption{display:none}
+        .sub_news th{padding:5px 0 6px;border-top:solid 1px #999;border-bottom:solid
+        1px #b2b2b2; background-color:#f1f1f4; color:#333;font-weight:bold;
+        line-height:20px; vertical-align:top}
+        .sub_news .date,.sub_news .hit{padding:0; font-family:Tahoma;font-size:11px;
+        line-height: 18px;}
+        .sub_news .title{text-align:left; padding-left:15px; font-size:13px;}
+        .sub_news .title .pic,.sub_news .title .new{margin:0 0 2px; vertical-align:middle}
+        .sub_news .title a.comment{padding:0; background:none; color:#f00;font-size :12px;
+        font-weight:bold}
+        .sub_news tr.reply .title a{padding-left:16px;background:url(첨부파일/ic_reply.png)0 1px no-repeat}
+        #mid_screen{
+            width:400px;
+            height:400px;
+            /*float:left;*/
+            margin:5px;
+        }
+
+    </style>
+
+
+    <div id="mid_screen">
+    <table class = "sub_news" boder="1" cellspacing="0" summary="게시판의 글제목 리스트">
+        <caption> 게시판 리스트 </caption>
         <colgroup>
-            <col width = "50" />
-            <col />
-            <col width = "100" />
-            <col width = "90" />
-            <col width = "60" />
-        </colgroup> -->
-
-
-<!--게시판 모양-->
-
-    <table class = "table table-striped">
+            <col>
+            <col width="110">
+            <col width="100">
+            <col width="80">
+        </colgroup>
         <thead>
             <tr>
-                <th scope = "col">번호</th>
-                <th scope = "col">제목</th>
-                <th scope = "col">작성자</th> 
-                <th scope = "col">등록일</th>
-                <th scope = "col">조회수</th> 
+                <th scope="col">제목</th>
+                <th scope = "col">작성자</th>
+                <th scope="col">날짜</th>
+                <th scope = "col">조회수</th>
             </tr>
         </thead>
+
+        <!--글 목록-->
         <tbody>
-            <tr>
-                <td>1</td>
-                <!-- td class 들어갈 자리 -->
-                <a href = "./gz1.html"> G3 서비스 시작 안내 </a></td>
-                <td>관리자</td> <td>2020-02-20</td> <td>315</td>
-            </tr>
+            <tr><td class="title"><center>
+                <a href="#">게시판 제목</a></center>
+               
+                
+            </td>
+            <td class ="name">관리자</td>
+            <td class= "date">2020-02-14</td>
+            <td class="hit">315</td>
+            
+          
+        </tr>
         </tbody> 
-    </table>
-    <!--</form> -->
+        </table>
+    </div>
+
 
     <!-- 맨 아래 공지사항 페이지 넘기기 기능 -->
 
-    <!-- div class 들어갈 자리 -->
-    <a href = "./sotong.html"><!--첫페이지--><span>처음</span></a>
-    <strong>1</strong>
-    <!-- <a href = "sotong_2pg.html"> 2 </a> -->
-    <a href = "./sotong_endpg.html"><!--마지막페이지--><span>마지막</span></a>
+    <style type ="text/css">
+       #page_bar{
+           position: absolute;
+           bottom:50;
+       }
+        .img_sample {background:url(/snippet/image?idx=59) no-repeat 0 0}
+        .paging_comm {font-weight:bold;font-size:14px;line-height:14px;text-align:center;vertical-align:top}
+        .paging_comm .link_page {display:inline-block;padding:4px 6px 3px 5px;margin-right:1px;border:1px solid #eaeaea;text-decoration:none}
+        .paging_comm .link_page:hover,
+        .paging_comm em.link_page {border:1px solid #536fe5;color:#536fe5;font-weight:bold}
+        .paging_comm .img_sample {display:inline-block;padding:6px 2px 4px 3px;border:0 none;font-weight:normal;color:#999;text-decoration:none}
+        .paging_comm .link_page:hover {text-decoration:none}
+        .paging_comm .btn_prev {padding-left:6px;background-position:0 10px}
+        .paging_comm .btn_next {padding-right:7px;background-position:100% -10px}
+        .paging_comm a.btn_prev:hover {background-position:0 -30px;color:#333}
+        .paging_comm a.btn_next:hover {background-position:100% -50px;color:#333}
+        .paging_comm span.btn_prev {background-position:0 10px;color:#999}
+        .paging_comm span.btn_next {background-position:100% -10px;color:#999}
+        </style>
+
+    
+        <div class="paging_comm">
+            <a href="#none" class="img_sample btn_prev">이전</a>
+            <span class="screen_out"></span><em class="link_page">1</em>
+            <a href="#none" class="link_page">2</a>
+            <a href="#none" class="link_page">3</a>
+            <a href="#none" class="img_sample btn_next">다음</a>
+        </div></div>
+        
+        
     
     <!-- 하단 copyright 부분 -> bgcolor 색상 다르게 -->
-    <style tyle="text/css">
+    <style type="text/css">
 
         #footer {
             position:absolute;
