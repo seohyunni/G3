@@ -181,13 +181,15 @@ text-decoration:none;
 .sub_news .title a.comment{padding:0; background:none; color:#f00;font-size :12px;
                           font-weight:bold; position: relative;}
 .sub_news tr.reply .title a{padding-left:16px;background:url(첨부파일/ic_reply.png)0 1px no-repeat; position: relative;}
-#mid_screen{
+
+
+ /*#mid_screen{
     width:400px;
     height:400px;
-    /*float:left;*/
-    margin:5px;
+    */ /*float:left;*/
+   /* margin:5px;
     position: relative;
-  }
+  }  위치조정  */
 
 
 
