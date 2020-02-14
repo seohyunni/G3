@@ -6,65 +6,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3_소통관</title>
-
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
+    
     <!--사이드 메뉴 바 마우스 올리면 색 변함-->
-    <style>
-        ul  {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          width: 200px;
-          background-color: #f1f1f1;
-        }
-        
-        li a {
-          display: block;
-          color: #000;
-          padding: 8px 16px;
-          text-decoration: none;
-        }
-        
-        
-        li a:hover {
-          background-color: #555;
-          color: white;
-        }
-        </style>
+    
 </head>
 <body>
 
+ 
+<!--HEADER-->
+
+<div class="header">
+    <p class="logo">
+      <a href="./index.html"><img src="./images/G3_Logo.png" width=140 height=80 alt="G3_Logo"></a>
+    </p>
+    <div class="searchbar">
+      <input class="search_input" type="text" name="" >
+      <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+    </div>
+    <div class="login">
+      <a href="./login.html">로그인</a>
+      <span class="bar">|</span>
+      <a href="./sign_up.html">회원가입</a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!--메뉴바-->
+
+  <div class="topMenu-background">
+    <div class="topMenu">
+        <ul class="menu01">
+            <li><span>시대별</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+            <li><span>분야별</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+            <li><span>소통관</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+            <li><span>자료실</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+  </div>
+
+  <!-- --------------------상단고정---------------------- -->
 
 
     <!-- SIDE MENU BAR -->
 
-    <style type ="text/css">
-        #side_left{
-        width:100px;
-        height:300px;
-        float:left;
-        margin:5px;
-        }
     
-    
-        /*#side{
-        float:left;
-        width:50px;
-        height:400px;
-    
-      }*/
-
-      #side_left_box{
-        width:95%;
-        height:45%;
-        float:left;
-        margin:5px;
-        }
-    
-    </style>
-
-
-
-<ul>
+  <ul>
     <div id ="side_left">
         <div id="side_left_box">
     <center>
@@ -82,30 +109,6 @@
 
 <!--게시판-->
 
-<style type ="text/css">
-    .sub_nus,.sub_news th,.sub_news td{border:0}
-        .sub_news a{color:#383838;text-decoration:none}
-        .sub_news{width:100%;border-bottom:1px solid #999; color:#666; 
-        font-size:12px; table-layout:fixed}
-        .sub_news caption{display:none}
-        .sub_news th{padding:5px 0 6px;border-top:solid 1px #999;border-bottom:solid
-        1px #b2b2b2; background-color:#f1f1f4; color:#333;font-weight:bold;
-        line-height:20px; vertical-align:top}
-        .sub_news .date,.sub_news .hit{padding:0; font-family:Tahoma;font-size:11px;
-        line-height: 18px;}
-        .sub_news .title{text-align:left; padding-left:15px; font-size:13px;}
-        .sub_news .title .pic,.sub_news .title .new{margin:0 0 2px; vertical-align:middle}
-        .sub_news .title a.comment{padding:0; background:none; color:#f00;font-size :12px;
-        font-weight:bold}
-        .sub_news tr.reply .title a{padding-left:16px;background:url(첨부파일/ic_reply.png)0 1px no-repeat}
-        #mid_screen{
-            width:400px;
-            height:400px;
-            /*float:left;*/
-            margin:5px;
-        }
-
-    </style>
 
 
     <div id="mid_screen">
@@ -127,6 +130,7 @@
         </thead>
 
         <!--글 목록-->
+
         <tbody>
             <tr><td class="title"><center>
                 <a href="#">게시판 제목</a></center>
@@ -146,26 +150,7 @@
 
     <!-- 맨 아래 공지사항 페이지 넘기기 기능 -->
 
-    <style type ="text/css">
-       #page_bar{
-           position: absolute;
-           bottom:50;
-       }
-        .img_sample {background:url(/snippet/image?idx=59) no-repeat 0 0}
-        .paging_comm {font-weight:bold;font-size:14px;line-height:14px;text-align:center;vertical-align:top}
-        .paging_comm .link_page {display:inline-block;padding:4px 6px 3px 5px;margin-right:1px;border:1px solid #eaeaea;text-decoration:none}
-        .paging_comm .link_page:hover,
-        .paging_comm em.link_page {border:1px solid #536fe5;color:#536fe5;font-weight:bold}
-        .paging_comm .img_sample {display:inline-block;padding:6px 2px 4px 3px;border:0 none;font-weight:normal;color:#999;text-decoration:none}
-        .paging_comm .link_page:hover {text-decoration:none}
-        .paging_comm .btn_prev {padding-left:6px;background-position:0 10px}
-        .paging_comm .btn_next {padding-right:7px;background-position:100% -10px}
-        .paging_comm a.btn_prev:hover {background-position:0 -30px;color:#333}
-        .paging_comm a.btn_next:hover {background-position:100% -50px;color:#333}
-        .paging_comm span.btn_prev {background-position:0 10px;color:#999}
-        .paging_comm span.btn_next {background-position:100% -10px;color:#999}
-        </style>
-
+ 
     
         <div class="paging_comm">
             <a href="#none" class="img_sample btn_prev">이전</a>
@@ -177,18 +162,8 @@
         
         
     
-    <!-- 하단 copyright 부분 -> bgcolor 색상 다르게 -->
-    <style type="text/css">
+    <!-- 하단 copyright 부분 -->
 
-        #footer {
-            position:absolute;
-            bottom:0;
-            width:100%;
-            height:70px;   
-            background:#ccc;
-        }
-        
-        </style>
     <div id = "footer">
         <!-- div class 들어갈 자리 -->
         <!-- <p class = "logo"><img src="../../images/G3_Logo.png"> -->
