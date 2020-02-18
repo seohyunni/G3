@@ -9,7 +9,20 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+                  $('.topMenu').mouseover(function () {
+                      $('.dept01').slideDown(10);
+                  });
+              });
+    $(document).ready(function () {
+                  $('.topMenu').mouseleave(function () {
+                      $('.dept01').slideUp(10);
+                  });
+              });
+  
+    </script>
     
     <!--사이드 메뉴 바 마우스 올리면 색 변함-->
     
@@ -108,7 +121,7 @@
 
 
 
-   <!-- <div id="mid_screen">-->
+    <div id="mid_screen"> 
     <table class = "sub_news" boder="1" cellspacing="0" summary="게시판의 글제목 리스트">
         <caption> 게시판 리스트 </caption>
         <colgroup>
@@ -119,7 +132,7 @@
         </colgroup>
         <thead>
             <tr>
-                <th scope="col">제목</th>
+                <th scope="col"><center>제목</center></th>
                 <th scope = "col">작성자</th>
                 <th scope="col">날짜</th>
                 <th scope = "col">조회수</th>
@@ -129,8 +142,8 @@
         <!--글 목록-->
 
         <tbody>
-            <tr><td class="title"><center>
-                <a href="#">게시판 제목</a></center>
+            <tr><td class="title">
+                <a href="#"><center>게시판 제목</a></center>
                
                 
             </td>
@@ -147,9 +160,9 @@
 
     <!-- 맨 아래 공지사항 페이지 넘기기 기능 -->
 
- 
-    
+    <div id = "page_bar">
         <div class="paging_comm">
+            
             <a href="#none" class="img_sample btn_prev">이전</a>
             <span class="screen_out"></span><em class="link_page">1</em>
             <a href="#none" class="link_page">2</a>
