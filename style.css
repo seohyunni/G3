@@ -126,10 +126,12 @@ text-decoration:none;
 
 
 #side_left{
-  width:100px;
-  height:300px;
+  width:300px;
+  height:400px;
   float:left;
   margin:5px;
+  
+  position: relative;
 
   }
 
@@ -139,6 +141,8 @@ text-decoration:none;
     float:left;
     margin:5px;
     
+    position: relative;
+    
     }
 
   ul .snb   {
@@ -147,6 +151,7 @@ text-decoration:none;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
+    position: relative;
     
     }
         
@@ -155,14 +160,15 @@ text-decoration:none;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-          
+    position: relative;
     }
         
         
    li a:hover  {
+
     background-color: #555;
     color: white;
-   
+   position: relative;
          
     } 
         
@@ -183,22 +189,29 @@ text-decoration:none;
 .sub_news tr.reply .title a{padding-left:16px;background:url(첨부파일/ic_reply.png)0 1px no-repeat; position: relative;}
 
 
- /*#mid_screen{
-    width:400px;
-    height:400px;
-    */ /*float:left;*/
-   /* margin:5px;
-    position: relative;
-  }  위치조정  */
+ #mid_screen{
+      float:left; 
+      width:60%;
+      height:80%;
+    
+
+      margin-bottom:50px;
+      padding:0 0 50px;
+      border-left:1px 
+      solid #ddd;
+      position :relative;
+    }
 
 
 
   #page_bar{
+    width:200px; height:50px;
+    margin-left:50px;
     position: relative;
-    bottom:50;
+    bottom:100px;
 }
  .img_sample {background:url(/snippet/image?idx=59) no-repeat 0 0; position: relative;}
- .paging_comm {font-weight:bold;font-size:14px;line-height:14px;text-align:center;vertical-align:top;position: relative;}
+ .paging_comm { font-weight:bold;font-size:14px;line-height:14px;text-align:center;vertical-align:top;position: relative; right:-600px; top: 100px;}
  .paging_comm .link_page {display:inline-block;padding:4px 6px 3px 5px;margin-right:1px;border:1px solid #eaeaea;text-decoration:none; position: relative;}
  .paging_comm .link_page:hover,
  .paging_comm em.link_page {border:1px solid #536fe5;color:#536fe5;font-weight:bold}
@@ -218,5 +231,5 @@ text-decoration:none;
   width:100%;
   height:70px;   
   background:#ccc;
-  position: relative;
+ 
 }
