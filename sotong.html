@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3_소통관</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -105,10 +106,11 @@
     <div id ="side_left">
         <div id="side_left_box">
     <center>
+        <p>
         <h3 class = "title"> 소통관 </h3>
         
         <ul class='snb'><li class='hover'>
-        <a href = "./sotong.html" target="self">공지사항</a></li>
+        <a href = "./sotong.html" target="self" class="active">공지사항</a></li>
         <ul class='snb'><li class='hover'>
         <a href = "./freeboard.html" target="self">자유게시판</a></li>
         <ul class='snb'><li class='hover'>
@@ -119,7 +121,7 @@
 
 <!--게시판-->
 
-
+<br>
 
     <div id="mid_screen"> 
     <table class = "sub_news" boder="1" cellspacing="0" summary="게시판의 글제목 리스트">
@@ -132,9 +134,9 @@
         </colgroup>
         <thead>
             <tr>
-                <th scope="col"><center>제목</center></th>
+                <th scope="col"><center>&nbsp;제목</center></th>
                 <th scope = "col">작성자</th>
-                <th scope="col">날짜</th>
+                <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;날짜</th>
                 <th scope = "col">조회수</th>
             </tr>
         </thead>
@@ -143,13 +145,13 @@
 
         <tbody>
             <tr><td class="title">
-                <a href="#"><center>게시판 제목</a></center>
+                <a href="gz1.html"><center>G3 홈페이지 정식 오픈 안내</a></center>
                
                 
             </td>
             <td class ="name">관리자</td>
             <td class= "date">2020-02-14</td>
-            <td class="hit">315</td>
+            <td class="hit">&nbsp; 3150</td>
             
           
         </tr>
@@ -165,8 +167,7 @@
             
             <a href="#none" class="img_sample btn_prev">이전</a>
             <span class="screen_out"></span><em class="link_page">1</em>
-            <a href="#none" class="link_page">2</a>
-            <a href="#none" class="link_page">3</a>
+            
             <a href="#none" class="img_sample btn_next">다음</a>
         </div></div>
         
@@ -174,15 +175,21 @@
     
     <!-- 하단 copyright 부분 -->
 
+
+    <footer id="footerWrap">
     <div id = "footer">
         <!-- div class 들어갈 자리 -->
         <!-- <p class = "logo"><img src="../../images/G3_Logo.png"> -->
 
         <!--div class 들어갈 자리 -->
-        <p> Email : shyunni0331@naver.com <br>
+        <address>
+            Github : &nbsp;&nbsp;<span>https://github.com/seohyunni/G3</span><br/>
+            
+        </address>
+       <!-- <p> &nbsp;&nbsp; Email : shyunni0331@naver.com <br>-->
     
         <!-- div class = "copyright" 들어갈 자리-->
-        Copyright &copy; 2020 Hyeim & Seohyun & Yeowon. All rights reserved. </p>
-    </div>
+        <p class="copy">Copyright 2020 &copy;  Hyeim & Seohyun & Yeowon. All rights reserved. </p>
+    </div></footer>
 </body>
 </html>
