@@ -1,128 +1,4 @@
-* {margin: 0; padding: 0; }
-li {list-style: none; }
 
-            
-div{
-  display:block;
-}
-
-a:link { color: black; text-decoration: none; }
-a:visited { color: black; text-decoration: none; }
-a:hover { color: gray; text-decoration: NONE; }
-
-.header {
-  margin: 0 auto;
-  margin-bottom: 70px;
-  padding-top : 40px;
-  width: 1080px;
-  height: 100%;
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Nanum Brush Script', cursive;
-  position: relative;
-}
-
-.header .logo {
-    float:left;
-    position: relative;
-}
-
-.searchbar{
-  display: inline-block;
-  position: relative;
-  top: 50%;
-  left: -70px;
-  margin-top: 28px;
-
-}
-
-.search_input{
-position: relative;
-color: black;
-border: 1;
-border-color:gray;
-height: 50px;
-background-color: #e6e6e6;
-border-radius: 30px;
-display: inline-block;
-width: 450px;
-caret-color:transparent;
-line-height: 20px;
-font-size: 0.7em;
-font-family:'굴림';
-padding-left:10px;
-padding-right:50px;
-
-}
-
-.search_icon{
-height: 20px;
-width: 20px;
-position: relative;
-top:3px;
-right:55px;
-border-radius: 50%;
-color:black;
-text-decoration:none;
-}
-
-.header .login{
-  display: inline-block;
-  position: absolute;
-  /*float:right; */
-  font-family: '나눔바른고딕', cursive;
-  font-size: 22px;
-  bottom:0px;
-  right: 40px;
-
-}
-
-.topMenu-background{
-  text-align: center;
-          height: 60px; 
-          position: relative;
-          margin: 0 auto;
-          width: 100%;
-          z-index: 100;
-          align-content: center;
-          vertical-align: middle;
-          border-color: gray;
-          border-style: solid;
-          border-width: 1px 0px 1px 0px;
-}
-.topMenu {
-          text-align: center;
-          height: 60px; 
-          position: relative;
-          margin: 0 auto;
-          width: 1080px;
-          z-index: 100;
-          align-content: center;
-          vertical-align: middle;
-        }
-
-.topMenu:after {content: ""; display: block; clear: both; position: relative; }
-.menu01>li {
-  float: left; width: 25%; height:100% ;
-  border-color: gray;
-  border-style: solid;
-  border-width: 0px 0px 0px 1px;
-  position: relative;
-}
-.menu01 span {font-size: 20px; font-weight: bold; position: relative;}
-            
-.dept01 {display: none; padding: 20px 0; border-bottom: 1px solid #ccc; }
-            
-#nop {float: none; }
-            
-.none:after {content: ""; display: block; clear: both; }
-
-#content{
-  margin: 0 auto;
-  width: 1080px;
-  height: 100%;
-  padding: 8px 10px 0;
-}
 
 
 #side_left{
@@ -171,6 +47,10 @@ text-decoration:none;
    position: relative;
          
     } 
+    li a.active {
+      background-color: #555;
+      color: white;
+    }
         
 .sub_nus,.sub_news th,.sub_news td{border:0; position: relative;}
 .sub_news a{color:#383838;text-decoration:none; position: relative;}
@@ -193,7 +73,7 @@ text-decoration:none;
       float:left; 
       width:60%;
       height:80%;
-    
+      margin-top:50px;
 
       margin-bottom:50px;
       padding:0 0 50px;
@@ -202,13 +82,13 @@ text-decoration:none;
       position :relative;
     }
 
-
+    
 
   #page_bar{
     width:200px; height:50px;
     margin-left:50px;
-    position: relative;
-    bottom:100px;
+    position: absolute;
+    bottom:200px;
 }
  .img_sample {background:url(/snippet/image?idx=59) no-repeat 0 0; position: relative;}
  .paging_comm { font-weight:bold;font-size:14px;line-height:14px;text-align:center;vertical-align:top;position: relative; right:-600px; top: 100px;}
@@ -225,11 +105,42 @@ text-decoration:none;
  .paging_comm span.btn_next {background-position:100% -10px;color:#999}
 
 
- #footer {
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:70px;   
-  background:#ccc;
  
-}
+
+ .board_view {margin-bottom:20px; overflow:hidden;}
+.view_tle {height:60px; padding:20px 10px ; border-top:1px solid #dfe4e9; border-bottom:1px solid #dfe4e9; font-weight:bold; background:#eef2f6; font-size:0.95em;}
+.view_name {height:50px; border-bottom:1px solid #dfe4e9; padding:10px 0 ;}
+.view_name dt{float:left; width:70px; padding-left:10px; padding-right:10px; font-weight:bold; font-size:0.95em;}
+.view_name dd{float:left; width:232px; padding-left:10px;}
+.view_file {height:50px; border-bottom:1px solid #dfe4e9; padding:10px 0; width:100%; overflow:hidden;}
+.view_file dt{float:left; width:55px; padding-left:10px; font-weight:bold; font-size:0.95em; overflow:hidden;}
+.view_file dd{float:left; width:580px; padding-left:10px;}
+.view_file dd a[target="_blank"]  {margin-right:30px;  letter-spacing:-0.05em; border:1px solid #ccc; padding:2px 3px 2px 3px; background-color:#efefef; font-size:12px; font-weight:bold; margin-left:-10px;}
+.view_body {padding:20px; border-bottom:1px solid #dfe4e9; /*width:700px;*/ height:100%; line-height:1.6em;}
+
+
+
+
+.btn-area{ margin-bottom:30px;}
+
+.btn-area .btn-list{width:10%;display:inline-block;border:1px solid #000;text-align:center;-webkit-box-sizing:border-box;box-sizing:border-box}
+.btn-area .btn-list .txt{display:inline-block;font-size:14px;line-height:38px}
+
+
+
+
+#footerWrap {position:relative; clear:both; text-align:center; border-top:1px solid #ccc; }
+#footer {height:95px; margin:0 auto; padding-top:25px; text-align:left; position:relative;}
+#footer div {float:left; height:61px; padding-left:300px; text-align:left; }
+.b_logo {position:absolute; left:0; top:35px; font-size:0; width:250px; height:40px; background:url('/design/tour/img/common/logo_bottom.gif') no-repeat 0 0; display:block;}
+#footer #botMenu {overflow:hidden;}
+#footer #botMenu li {float:left; padding:0 10px; background:url('/design/tour/img/common/footer_line.gif') no-repeat 0 2px; color:#666;}
+#footer #botMenu li:first-child {padding-left:0; background:none;}
+#footer #botMenu li.rss {padding:0 25px; background:url('/design/tour/img/common/footer_rss.gif') no-repeat 0 2px;}
+#footer #botMenu li a {display:block; font-weight:normal; font-size:13px; color:#555;}
+#footer #botMenu li a:hover {text-decoration:underline;}
+#footer address {padding-top:14px; font-style:normal;color:#666; font-size:12px;}
+#footer address a {color:#666; text-decoration:underline;}
+#footer address span {font-weight:600;}
+#footer .copy {padding-top:2px;color:#666; font-size:12px;}
+
