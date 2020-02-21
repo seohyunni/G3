@@ -5,9 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>G3_Great Giant Girls</title>
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/base.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <script type="text/javascript" src="./js/jquery.bxslider.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function () {
+                $('.topMenu').mouseover(function () {
+                    $('.dept01').slideDown(10);
+                });
+            });
+  $(document).ready(function () {
+                $('.topMenu').mouseleave(function () {
+                    $('.dept01').slideUp(10);
+                });
+            });
+
+  </script>
   
 </head>
 <body>
@@ -25,11 +42,11 @@
       <a href="./sign_up.html">회원가입</a>
     </div>
   </div>
-
 <div class="topMenu-background">
   <div class="topMenu">
       <ul class="menu01">
           <li><span>시대별</span>
+            <div class="dept01_background">
               <ul class="dept01">
                   <li id="nop">sub01</li>
                   <li id="nop">sub02</li>
@@ -56,7 +73,7 @@
                   <li id="nop">sub05</li>
               </ul>
           </li>
-          <li><span>자료실</span>
+          <li ><span>자료실</span>
               <ul class="dept01">
                   <li id="nop">sub01</li>
                   <li id="nop">sub02</li>
@@ -68,107 +85,203 @@
       </ul>
   </div>
 </div>
-    <!-----------------------Header------------------------->
+    <!-------------------------------Header-------------------------------------->
     <div id="wrap">
         <!-- Content -->
         <div id="content" class="main_wrap">
-          <div class="main_vsa">
-            <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;">
-              <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 501px;">
-                <ul class="lst" style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(-990px, 0px, 0px);">
-                  <li class="s03 bx-clone" style="float: left; list-style: none; position: relative; width: 990px;">
-                <ul>
-                  <li class="n01"></li>
-                  <li class="n02"><a href="/pages/s04/page.html?mc=7332"><img src="../../images/main/img_visual03_txt.png" alt="문화예술의 섬, 독도. 자세히 보기"></a></li>
-                  <li class="n03"></li>
-                </ul>
-              </li>
-              <li class="s01" style="float: left; list-style: none; position: relative; width: 990px;">
-                <ul>
-                  <li class="n01"><!-- <a href=""><img src="../../images/main/img_visual03_txt.jpg" /></a> --></li>
-                  <li class="n02"><a href="/pages/s03/page.html?mc=7308"><img src="../../images/main/img_visual01_txt.png" alt="대한민국의 아름다운 섬, 독도. 자세히보기"></a></li>
-                  <li class="n03"><!-- <a href=""><img src="../../images/main/img_visual02_txt.jpg" /></a> --></li>
-                </ul>
-              </li>
-              <li class="s02" style="float: left; list-style: none; position: relative; width: 990px;">
-                <ul>
-                  <li class="n01"><!-- <a href=""><img src="../../images/main/img_visual01_txt.jpg" /></a> --></li>
-                  <li class="n02"><a href="/pages/s02/page.html?mc=7292"><img src="../../images/main/img_visual02_txt.png" alt="대한민국 고유의 영토, 독도. 자세히 보기"></a></li>
-                  <li class="n03"><!-- <a href=""><img src="../../images/main/img_visual03_txt.jpg" /></a> --></li>
-                </ul>
-              </li>
-              <li class="s03" style="float: left; list-style: none; position: relative; width: 990px;">
-                <ul>
-                  <li class="n01"><!-- <a href=""><img src="../../images/main/img_visual02_txt.jpg" /></a> --></li>
-                  <li class="n02"><a href="/pages/s04/page.html?mc=7332"><img src="../../images/main/img_visual03_txt.png" alt="문화예술의 섬, 독도. 자세히 보기"></a></li>
-                  <li class="n03"><!-- <a href=""><img src="../../images/main/img_visual01_txt.jpg" /></a> --></li>
-                </ul>
-              </li>
-            <li class="s01 bx-clone" style="float: left; list-style: none; position: relative; width: 990px;">
-                <ul>
-                  <li class="n01"><!-- <a href=""><img src="../../images/main/img_visual03_txt.jpg" /></a> --></li>
-                  <li class="n02"><a href="/pages/s03/page.html?mc=7308"><img src="../../images/main/img_visual01_txt.png" alt="대한민국의 아름다운 섬, 독도. 자세히보기"></a></li>
-                  <li class="n03"><!-- <a href=""><img src="../../images/main/img_visual02_txt.jpg" /></a> --></li>
-                </ul>
-              </li></ul></div><div class="bx-controls bx-has-controls-direction bx-has-controls-auto"><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div><div class="bx-controls-auto"><div class="bx-controls-auto-item"><a class="bx-stop" href="">Stop</a></div></div></div></div>
-            <script type="text/javascript">
-              $(function(){
-                $('.main_vsa .lst').bxSlider({
-                  //mode: 'fade',
-                  slideZIndex: 20,
-                  speed: 500,
-                  pause: 7000,
-                  pager: false,
-                  auto: true,
-                  autoControls: true,
-                  autoControlsCombine: true,
-                  autoStart: true,
-                  autoHover: true
-                });
-              });
-            </script>
-          </div>
+            <div class="main_vsa">
+                <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 502px;">
+                  <ul class="lst" style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(-5070px, 0px, 0px);">
+                    <li class="s03 bx-clone" style="float: left; list-style: none; position: relative; width: 1690px;">
+                        <ul>
+                          <li class="n01"><!-- <a href=""><img src="../../images/main/img_visual02_txt.jpg" /></a> --></li>
+                          <li class="n02"><a href="/pages/s04/page.html?mc=7332"><img src="../images/main/img_visual03.jpg" alt="문화예술의 섬, 독도. 자세히 보기"></a></li>
+                          <li class="n03"><!-- <a href=""><img src="../../images/main/img_visual01_txt.jpg" /></a> --></li>
+                        </ul>
+                      </li>
+                      <li class="s01" style="float: left; list-style: none; position: relative; width: 1690px;">
+                        <ul>
+                          <li class="n01"><!-- <a href=""><img src="../../images/main/img_visual03_txt.jpg" /></a> --></li>
+                          <li class="n02"><a href="/pages/s03/page.html?mc=7308"><img src="../images/main/img_visual01.jpg" alt="대한민국의 아름다운 섬, 독도. 자세히보기"></a></li>
+                          <li class="n03"><!-- <a href=""><img src="../../images/main/img_visual02_txt.jpg" /></a> --></li>
+                        </ul>
+                      </li>
+                      <li class="s02" style="float: left; list-style: none; position: relative; width: 1690px;">
+                        <ul>
+                          <li class="n01"><!-- <a href=""><img src="../../images/main/img_visual01_txt.jpg" /></a> --></li>
+                          <li class="n02"><a href="/pages/s02/page.html?mc=7292"><img src="../images/main/img_visual02.jpg" alt="대한민국 고유의 영토, 독도. 자세히 보기"></a></li>
+                          <li class="n03"><!-- <a href=""><img src="../../images/main/img_visual03_txt.jpg" /></a> --></li>
+                        </ul>
+                      </li>
+                      <li class="s03" style="float: left; list-style: none; position: relative; width: 1690px;">
+                        <ul>
+                          <li class="n01"><!-- <a href=""><img src="../../images/main/img_visual02_txt.jpg" /></a> --></li>
+                          <li class="n02"><a href="/pages/s04/page.html?mc=7332"><img src="../images/main/img_visual03.jpg" alt="문화예술의 섬, 독도. 자세히 보기"></a></li>
+                          <li class="n03"><!-- <a href=""><img src="../../images/main/img_visual01_txt.jpg" /></a> --></li>
+                        </ul>
+                      </li>
+                    <li class="s01 bx-clone" style="float: left; list-style: none; position: relative; width: 1690px;">
+                        <ul>
+                          <li class="n01"><!-- <a href=""><img src="../../images/main/img_visual03_txt.jpg" /></a> --></li>
+                          <li class="n02"><a href="/pages/s03/page.html?mc=7308"><img src="../images/main/img_visual01.jpg" alt="대한민국의 아름다운 섬, 독도. 자세히보기"></a></li>
+                          <li class="n03"><!-- <a href=""><img src="../../images/main/img_visual02_txt.jpg" /></a> --></li>
+                        </ul>
+                      </li>
+                    </ul></div><div class="bx-controls bx-has-controls-direction bx-has-controls-auto"><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div><div class="bx-controls-auto"><div class="bx-controls-auto-item"><a class="bx-stop" href="">Stop</a></div></div></div></div>
+                <script type="text/javascript">
+                  $(function(){
+                    $('.main_vsa .lst').bxSlider({
+                      //mode: 'fade',
+                      slideZIndex: 20,
+                      speed: 500,
+                      pause: 7000,
+                      pager: false,
+                      auto: true,
+                      autoControls: true,
+                      autoControlsCombine: true,
+                      autoStart: true,
+                      autoHover: true
+                    });
+                  });
+                </script>
+              </div>
+
+
+
+          <!-----------------------------------배너 -------------------------------->
           <div class="section01">
             <div class="col01">
               <h2>관련 영상</h2>
-              <p><a href="/pages/s04/page.html?mc=7335"><img src="../../images/main/img_vod.jpg" alt="대한민국의 아름다운 섬, 독도 자세히 보기"></a></p>
+              <p><iframe width="440" height="300" src="https://www.youtube.com/embed/oflqMPMyLBM" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
               <p class="more"><a href="/pages/s04/page.html?mc=7335" title="독도 영상">+more</a></p>
             </div>
             <div class="col02">
               <h2>왜 독도는 한국영토인가?</h2>
               <div class="bx">
-                <p>독도는 역사적, 지리적, 국제법적으로명백한  <br>우리 고유의 영토입니다.</p>
                 <ul class="lst">
-                  <li><a href="#">정부기본입장</a></li>
-                  <li><a href="/pages/s02/page.html?mc=7290">연표</a></li>
-                  <li><a href="/pages/s02/page.html?mc=7292">독도의 진실</a></li>
-                  <li><a href="/pages/s04/page.html?mc=7319">경상북도지사 발표문</a></li>
+                  <li><a href="#">서비스 재시작 안내</a></li>
+                  <li><a href="/pages/s02/page.html?mc=7290">서비스 종료 안내</a></li>
+                  <li><a href="/pages/s02/page.html?mc=7292">G3 홈페이지 정식 오픈 안내</a></li>
+                  <li><a href="/pages/s04/page.html?mc=7319">서비스 오픈 안내</a></li>
                 </ul>
               </div>
               <p class="more"><a href="/pages/s02/page.html?mc=7290" title="왜 독도는 한국영토인가?">+more</a></p>
-            </div>
-            <div class="col03">
-              <h2>독도 홍보물</h2>
-              <p class="pdf"><a href="/pages/s04/page.html?mc=7339"><img src="../../images/main/img_dokdo_pdf.jpg" alt="독도를 소개한 팜플렛과 리플렛을 다운로드 받으실 수 있습니다. PDF 다운로드"></a></p>
-              <!--<p><a href="/pages/s06/page.html?mc=7807"><img src="../../images/main/img_newsletter.jpg" alt="독도뉴스레터 자세히보기" /></a></p>-->
-      <p><a href="/pages/s04/page.html?mc=7871"><img src="../../images/main/img_m.jpg" alt="독도 실시간 영상관 보기"></a></p>
-      <!--<p><a href="http://www.dokdo.go.kr#&no=MTY1&mode=view&bbs_id=board_nknotice&start=0&key=&keyword=&category=&search_date_start=&search_date_end=&dongcode=&DEP_CODE="><img src="../../images/main/img_calendar.jpg" alt="2017년 독도영문달력 공모" /></a></p>-->
-              <p class="more"><a href="/pages/s04/page.html?mc=7339" title="독도 홍보물">+more</a></p>
             </div>
       
       
             <div class="main_banner">
               <ul>
-                <li><a href="http://dokdohistory.com/" target="_blank"><img src="../../images/main/banner/banner_01.gif" alt="독도연구소"></a></li>
-                <li><a href="http://www.dokdomuseum.go.kr/" target="_blank"><img src="../../images/main/banner/banner_02.gif" alt="독도박물관"></a></li>
-                <li><a href="http://dokdo.mofa.go.kr/kor/" target="_blank"><img src="../../images/main/banner/banner_03.gif" alt="외교부독도"></a></li>
-                <li><a href="http://www.dokdo.re.kr/" target="_blank"><img src="../../images/main/banner/banner_04.gif" alt="독도 종합정보시스템"></a></li>
-                <li><a href="http://www.ulleung.go.kr/mdokdo/" target="_blank"><img src="../../images/main/banner/banner_05.gif" alt="독도관리사무소"></a></li>
-                <li><a href="http://www.koreadokdo.or.kr/" target="_blank"><img src="../../images/main/banner/banner_06.gif" alt="독도재단"></a></li>
-                <li class="no"><a href="http://www.k-dokdo.com//" target="_blank"><img src="../../images/main/banner/banner_07.gif" alt="k독도"></a></li>
+                <li><a href="#" target="_blank"><img src="./images/main/banner/banner01.png" alt="독도연구소"></a></li>
+                <li><a href="#" target="_blank"><img src="../../images/main/banner/banner_02.gif" alt="독도박물관"></a></li>
+                <li><a href="#" target="_blank"><img src="../../images/main/banner/banner_03.gif" alt="외교부독도"></a></li>
+                <li><a href="#" target="_blank"><img src="../../images/main/banner/banner_04.gif" alt="독도 종합정보시스템"></a></li>
+                <li><a href="#" target="_blank"><img src="../../images/main/banner/banner_05.gif" alt="독도관리사무소"></a></li>
+                <li><a href="#" target="_blank"><img src="../../images/main/banner/banner_06.gif" alt="독도재단"></a></li>
+                <li class="no"><a href="#" target="_blank"><img src="../../images/main/banner/banner_07.gif" alt="k독도"></a></li>
               </ul>
             </div>
-      
+            
+            <div class="mLecture">
+              <h2>창의체험 인기 강좌</h2>
+              <div class="list">
+              <!-- slick -->
+              <div class="slick_lecNew slick-initialized slick-slider"><button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: inline-block;">Previous</button>
+                
+                <div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5364px; transform: translate3d(-894px, 0px, 0px);" role="listbox"><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide29" data-slick-index="-3" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10201320" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/7/26/10201320/61855637115250364_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">생존수영</span>
+                    </a>
+                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide210" data-slick-index="-2" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10033013" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/10/10033013/39243646365133150_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">엉뚱 남매 공작소</span>
+                    </a>
+                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide211" data-slick-index="-1" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10018975" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10018975/10018975.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">오 마이 미래 2035 - 미래토크</span>
+                    </a>
+                  </div><div class="rect_array slick-slide slick-current slick-active" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide20" data-slick-index="0" aria-hidden="false">
+                    <a href="/CPG/course/view?courseId=10022923" tabindex="0">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10022923/10022923.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">어휘랑! 교과서 한자어를 찾아라! 2</span>
+                    </a>
+                  </div><div class="rect_array slick-slide slick-active" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide21" data-slick-index="1" aria-hidden="false">
+                    <a href="/CPG/course/view?courseId=10200890" tabindex="0">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/7/1/10200890/59696414803478495_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">야옹! 클래식</span>
+                    </a>
+                  </div><div class="rect_array slick-slide slick-active" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide22" data-slick-index="2" aria-hidden="false">
+                    <a href="/CPG/course/view?courseId=10033014" tabindex="0">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/10/10033014/38703119963972090_course.gif" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">과학할고양</span>
+                    </a>
+                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide23" data-slick-index="3" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10019195" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10019195/10019195.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">오 마이 미래 2035  - 신(新) 극한직업</span>
+                    </a>
+                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide24" data-slick-index="4" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10022877" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10022877/10022877.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">달그락 달그락 교과서 실험실</span>
+                    </a>
+                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide25" data-slick-index="5" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10034553" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/4/29/10034553/54235033375808606_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">엉뚱 남매 요리조리쇼</span>
+                    </a>
+                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide26" data-slick-index="6" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10023173" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/3/26/10023173/51302649539364876_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">배움너머</span>
+                    </a>
+                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide27" data-slick-index="7" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10023753" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10023753/10023753.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">스쿨랜드 - 초등생활 매너백서</span>
+                    </a>
+                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide28" data-slick-index="8" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10027993" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/12/10027993/39404372885255636_course.gif" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">과학땡Q</span>
+                    </a>
+                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide29" data-slick-index="9" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10201320" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/7/26/10201320/61855637115250364_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">생존수영</span>
+                    </a>
+                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide210" data-slick-index="10" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10033013" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/10/10033013/39243646365133150_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">엉뚱 남매 공작소</span>
+                    </a>
+                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide211" data-slick-index="11" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10018975" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10018975/10018975.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">오 마이 미래 2035 - 미래토크</span>
+                    </a>
+                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide20" data-slick-index="12" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10022923" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10022923/10022923.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">어휘랑! 교과서 한자어를 찾아라! 2</span>
+                    </a>
+                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide21" data-slick-index="13" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10200890" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/7/1/10200890/59696414803478495_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">야옹! 클래식</span>
+                    </a>
+                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide22" data-slick-index="14" aria-hidden="true">
+                    <a href="/CPG/course/view?courseId=10033014" tabindex="-1">
+                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/10/10033014/38703119963972090_course.gif" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
+                      <span class="txt">과학할고양</span>
+                    </a>
+                  </div></div></div><button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: inline-block;">Next</button></div>
+              <!-- //slick -->
+              </div>
+            </div>
           </div>
         </div>
         <!-- // Content -->

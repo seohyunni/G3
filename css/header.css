@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+.header {
+  margin: 0 auto;
+  margin-bottom: 70px;
+  padding-top : 40px;
+  width: 1080px;
+  height: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Nanum Brush Script', cursive; 
+  position: relative;
+}
+
+.header .logo {
+    float:left;
+    position: relative;
+}
+
+.searchbar{
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: -70px;
+  margin-top: 28px;
+
+}
+
+.search_input{
+position: relative;
+color: black;
+border: 1;
+border-color:gray;
+height: 50px;
+background-color: #e6e6e6;
+border-radius: 30px;
+display: inline-block;
+width: 450px;
+caret-color:transparent;
+line-height: 20px;
+font-size: 0.7em;
+font-family:'굴림';
+padding-left:10px;
+padding-right:50px;
+
+}
+
+.search_icon{
+height: 20px;
+width: 20px;
+position: relative;
+top:3px;
+right:55px;
+border-radius: 50%;
+color:black;
+text-decoration:none;
+}
+
+.header .login{
+  display: inline-block;
+  position: absolute;
+  float:right;
+  font-family: '나눔바른고딕', cursive;
+  font-size: 22px;
+  bottom:0px;
+  right: 40px;
+
+}
+
+.topMenu-background{
+          text-align: center;
+          height: 60px; 
+          position: relative;
+          margin: 0 auto;
+          width: 100%;
+          z-index: 100;
+          align-content: center;
+          vertical-align: middle;
+          border-color: gray;
+          border-style: solid;
+          border-width: 1px 0px 1px 0px;
+}
+.topMenu {
+          text-align: center;
+          height: 60px; 
+          position: relative;
+          bottom:17px;
+          margin: 0 auto;
+          width: 1080px;
+          z-index: 0;
+          align-content: center;
+          vertical-align: middle;
+        }
+
+.topMenu:after {content: ""; display: block; clear: both; }
+.menu01>li {
+  float: left; width: 25%; height:59px ;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  align-content: center;
+}
+.menu01>li:hover{
+  background-color:gray;
+  cursor:pointer;
+}
+
+.menu01 span {
+   font-size: 20px; 
+   font-weight: bold;
+   position: relative;
+   top:15px;
+
+  }
+            
+.dept01 {
+   top:29.5px;
+   padding: 10px 0;
+   border-bottom: 1px solid #ccc;
+   position: relative;
+   background-color:white;
+  align-content: center;
+}
+
+.dept01:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+#nop {float: none;
+      padding:10px 0; }
+ 
+#nop:hover {
+  text-decoration: underline;
+}
+           
+.none:after {content: ""; display: block; clear: both; }
+
+#content{
+  margin: 0 auto;
+  width: 1080px;
+  height: 100%;
+  padding: 8px 10px 0;
+}
