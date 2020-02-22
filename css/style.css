@@ -154,3 +154,15 @@
 #footer .copy {padding-top:2px;color:#666; font-size:12px;}
 
 
+
+
+#write_title{
+  top:20px; left:-390px; position: relative; font-size:30px ;
+  
+}
+
+
+.tar{top:345px;left:480px;position: absolute;  text-align:right !important;}
+.tac{right:-320px; text-align:center !important; position: relative;}
+
+
