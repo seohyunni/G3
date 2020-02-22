@@ -21,15 +21,15 @@ a:hover { color: gray; text-decoration: NONE; }
 .main_wrap .main_vsa .lst>li>ul>li{float:left; position:relative; width:990px; height:501px; background:#fff;}
 .main_wrap .main_vsa .lst>li>ul>li.n02{z-index:20;}
 .main_wrap .main_vsa .lst>li>ul>li.n02{z-index:20;}
-.main_wrap .main_vsa .lst>li.s01>ul>li.n01{background:url(../images/main/img_visual03.jpg) no-repeat 0 0;}
-.main_wrap .main_vsa .lst>li.s01>ul>li.n02{background:url(../images/main/img_visual01.jpg) no-repeat 0 0;}
-.main_wrap .main_vsa .lst>li.s01>ul>li.n03{background:url(../images/main/img_visual02.jpg) no-repeat 0 0;}
-.main_wrap .main_vsa .lst>li.s02>ul>li.n01{background:url(../images/main/img_visual01.jpg) no-repeat 0 0;}
-.main_wrap .main_vsa .lst>li.s02>ul>li.n02{background:url(../images/main/img_visual02.jpg) no-repeat 0 0;}
-.main_wrap .main_vsa .lst>li.s02>ul>li.n03{background:url(../images/main/img_visual03.jpg) no-repeat 0 0;}
-.main_wrap .main_vsa .lst>li.s03>ul>li.n01{background:url(../images/main/img_visual02.jpg) no-repeat 0 0;}
-.main_wrap .main_vsa .lst>li.s03>ul>li.n02{background:url(../images/main/img_visual03.jpg) no-repeat 0 0;}
-.main_wrap .main_vsa .lst>li.s03>ul>li.n03{background:url(../images/main/img_visual01.jpg) no-repeat 0 0;}
+.main_wrap .main_vsa .lst>li.s01>ul>li.n01{background:url(./images/main/img_visual03.jpg) no-repeat 0 0;}
+.main_wrap .main_vsa .lst>li.s01>ul>li.n02{background:url(./images/main/img_visual01.jpg) no-repeat 0 0;}
+.main_wrap .main_vsa .lst>li.s01>ul>li.n03{background:url(./images/main/img_visual02.jpg) no-repeat 0 0;}
+.main_wrap .main_vsa .lst>li.s02>ul>li.n01{background:url(./images/main/img_visual01.jpg) no-repeat 0 0;}
+.main_wrap .main_vsa .lst>li.s02>ul>li.n02{background:url(./images/main/img_visual02.jpg) no-repeat 0 0;}
+.main_wrap .main_vsa .lst>li.s02>ul>li.n03{background:url(./images/main/img_visual03.jpg) no-repeat 0 0;}
+.main_wrap .main_vsa .lst>li.s03>ul>li.n01{background:url(./images/main/img_visual02.jpg) no-repeat 0 0;}
+.main_wrap .main_vsa .lst>li.s03>ul>li.n02{background:url(./images/main/img_visual03.jpg) no-repeat 0 0;}
+.main_wrap .main_vsa .lst>li.s03>ul>li.n03{background:url(./images/main/img_visual01.jpg) no-repeat 0 0;}
 .main_wrap .main_vsa .bx-controls{position:absolute; top:0; left:50%; z-index:21; width:990px; height:1px; margin-left:-495px;}
 .main_wrap .main_vsa .bx-controls a{position:absolute; top:206px; display:inline-block; overflow:hidden; width:49px; height:89px; background:url(../images/main/sp_main_vsa.png) no-repeat 0 0; line-height:999px; vertical-align:top;}
 .main_wrap .main_vsa .bx-controls a.bx-prev{left:10px; background-color:rgba(0,0,0,.5);}
@@ -55,8 +55,15 @@ a:hover { color: gray; text-decoration: NONE; }
 .main_wrap .section01 .col02 .lst li{padding:0 0 22px 8px; font-size:18px; line-height:18px;}
 .main_wrap .section01 .col02 .lst li .date{ float:right; color:rgb(90, 90, 90); margin-right:20px;}
 
-/*
-.main_banner{width:990px;}
-.main_banner ul{ overflow:hidden; margin-top:250px; height:45px;}
-.main_banner ul li{ float:left; margin-right:2px;}
-.main_banner .no{float:right; margin:0;}*/
+/* 2017-12-26 ì¸ê¸°ì‹œë¦¬ì¦ˆ ì¶”ê°€ */
+.mLecture {position:relative; width:100%;height:400px;padding:20px 2.5%;border:0 none;}
+.mLecture .list {height:auto;}
+	/*.mLecture .list li {width:32%;margin-left:2%;}*/
+.mLecture .list .thumb {width:100%;height:auto;}
+	.mLecture .list .thumb img {width:100%;height:100%;margin-left:10px;}
+	.mLecture .list .txt {text-overflow:ellipsis;white-space:nowrap;height:20px;margin-left:10px;padding-top:5px;font-size:13px;width:91%;}
+	/*.mLecture .btn_prevNext {display:none;}*/
+	.mLecture .slick-next,
+	.mLecture .slick-prev {display:none;}
+	.mLecture .rect_array {float:left;width:33%;}
+	
