@@ -94,10 +94,11 @@
     </div>
   </div>
 
+<br><br>
   <div id="content" class="cont_wrap">
-    
+ 
    <div id="join_title">
-     회원가입
+     회원가입<br><br>
    </div>
 
 
@@ -234,10 +235,8 @@
     </textarea>	</div>
     
         <div class="agree">
-        <span class="agree_txt">▶ 위의 약관에 동의 합니다. (약관에 동의하셔야 회원가입이 가능합니다)</span><br>
-        &nbsp;&nbsp;&nbsp;
-        <span style="agree_txt2"><input name="joinConfirm01" type="radio" id="joinConfirm01_1" style="border:1px solid #FFFFFF;" /> <label for="joinConfirm01_1">예</label></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span style="agree_txt2"><input name="joinConfirm01" type="radio" id="joinConfirm01" style="border:1px solid #FFFFFF;" /> <label for="joinConfirm01">아니오</label></span>
+        <span class="agree_txt"></span><br>
+        &nbsp;
         </div>
     
         <p class="s_title">개인정보취급방침</p>
@@ -348,15 +347,44 @@
     G3는 개인정보 처리방침을 변경하는 경우, 우리 대표홈페이지에 지속적으로 공개하도록 하겠습니다. 
     </textarea>	</div>
     
-        <div class="agree">
-        <span class="agree_txt">▶ 위의 약관에 동의 합니다. (약관에 동의하셔야 회원가입이 가능합니다)</span><br>
-        &nbsp;&nbsp;&nbsp;
-        <span style="agree_txt2"><input type="radio" style="border:1px solid #FFFFFF;" name="joinConfirm" id="joinConfirm_1" /> <label for="joinConfirm_1">예</label></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span style="agree_txt2"><input type="radio" style="border:1px solid #FFFFFF;" name="joinConfirm" id="joinConfirm" /> <label for="joinConfirm">아니오</label> </span>
-        </div>
-    
-    </div>
+       
+   
 
+
+
+<div id="next_btn">
+    <div class="agree">
+        <span class="agree_txt"> ▶ 위의 약관에 전체 동의 합니다. (약관에 동의하셔야 회원가입이 가능합니다)</span><br><br>
+        <form action="">
+            <input type="checkbox" name="ch" onclick="clause();" >
+            
+            예<br>
+            
+            <br/>
+            
+            <!-- disabled : 칸은 보이지만 사용할 수 없는 상태를 만든다.  -->
+            
+            <input type="button" value="다음" name="btn" disabled="disabled" onclick="location.href='./sign_up2.html'"/><br><br>
+            </form>
+        </div></div></div>
+
+
+    <script type="text/javascript">
+
+        function clause(){
+
+        var f=document.forms[0];
+
+        if(f.ch.checked)
+            f.btn.disabled=false;
+
+        else
+
+            f.btn.disabled=true;
+
+        }
+
+        </script>
 
 
      <!-- 하단 copyright 부분 -->
