@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<title>네이버 : 로그인</title>
+	<link rel="stylesheet" type="text/css" href="./css/login.css">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  
+  <script type="text/javascript">
+    $(document).ready(function () {
+                  $('.topMenu').mouseover(function () {
+                      $('.dept01').slideDown(10);
+                  });
+              });
+    $(document).ready(function () {
+                  $('.topMenu').mouseleave(function () {
+                      $('.dept01').slideUp(10);
+                  });
+              });
+  
+    </script>
+</head>
+<body class="chrome">
+
+	<!-- header -->
+	<div class="header">
+      <p class="logo">
+        <a href="./index.html"><img src="./images/G3_Logo.png" width=140 height=80 alt="G3_Logo"></a>
+      </p>
+      <div class="searchbar">
+        <input class="search_input" type="text" name="" >
+        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+      </div>
+      <div class="login">
+        <a href="./login.html">로그인</a>
+        <span class="bar">|</span>
+        <a href="./sign_up.html">회원가입</a>
+      </div>
+    </div>
+  <div class="topMenu-background">
+    <div class="topMenu">
+        <ul class="menu01">
+            <li><span>시대별</span>
+              <div class="dept01_background">
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+            <li><span>분야별</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+            <li><span>소통관</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+            <li ><span>자료실</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+  </div>
+      <!-------------------------------Header-------------------------------------->
+  <!-- //header -->
+  
+	<!-- container -->
+	<div id="container">
+		<!-- content -->
+		<div id="content">
+			<div class="title" aria-live="assertive">
+				<p></p>
+			</div>
+
+				<fieldset class="login_form">
+					<legend class="blind">로그인</legend>
+					<div class="id_area">
+						<div class="input_row" id="id_area">
+							<span class="input_box">
+								<label for="id" id="label_id_area" class="lbl">아이디</label>
+								<input type="text" id="id" name="id" accesskey="L" placeholder="아이디" class="int" maxlength="41" value="">
+							</span>
+						</div>
+						<div class="error" id="err_empty_id" style="display:none" aria-live="assertive"></div>
+					</div>
+					<div class="pw_area">
+						<div class="input_row" id="pw_area">
+							<span class="input_box">
+								<label for="pw" id="label_pw_area"  class="lbl">비밀번호</label>
+								<input type="password" id="pw" name="pw" placeholder="비밀번호" class="int" maxlength="16">
+							</span>
+							<div class="ly_v2" id="err_capslock" style="display:none;">
+								<div class="ly_box">
+									<p><strong>Caps Lock</strong>이 켜져 있습니다.</p>
+								</div>
+								<span class="sp ly_point"></span>
+							</div>
+						</div>
+						<div class="error" id="err_empty_pw" style="display:none" aria-live="assertive"></div>
+					</div>
+
+					<input type="submit" title="로그인" alt="로그인" value="로그인" class="btn_global" id="log.login">
+					
+				</fieldset>
+			</form>
+			<div class="position_a">
+				<div class="find_info">
+					<a target="_blank" id="idinquiry" href="https://nid.naver.com/user2/api/route.nhn?m=routeIdInquiry&lang=ko_KR">아이디 찾기</a> <span class="bar" aria-hidden="true">|</span> <a target="_blank" id="pwinquiry" href="https://nid.naver.com/user2/api/route.nhn?m=routePwInquiry&lang=ko_KR">비밀번호 찾기</a> <span class="bar" aria-hidden="true">|</span> <a target="_blank" id="join" href="https://nid.naver.com/user2/V2Join.nhn?m=agree&lang=ko_KR">회원가입</a>
+				</div>
+			</div>
+		</div>
+		<!-- //content -->
+	</div>
+	<!-- //container -->
+<input type="hidden" id="nclicks_nsc" name="nclicks_nsc" value="nid.login_kr">
+<input type="hidden" id="nid_buk" name="nid_buk" value="exist">
+<input type="hidden" id="ncaptchaSplit" name="ncaptchaSplit" value="none">
+<input type="hidden" id="id_error_msg" name="id_error_msg" value="아이디를 입력해주세요.">
+<input type="hidden" id="pw_error_msg" name="pw_error_msg" value="비밀번호를 입력해주세요.">
+<input type="hidden" id="locale" name="locale" value="ko_KR">
+<input type="hidden" id="adult_surl_v2" name="adult_surl_v2" value="">
+<script type="text/javascript" src="/login/js/bvsd.1.3.4.min.js"></script>
+<script type="text/javascript" src="/login/js/default/common.js"></script>
+<script type="text/javascript" src="/login/js/default/default.js?20200211"></script>
+<div id="nv_stat" style="display:none;">20</div>
+
+
+      <!-- 하단 copyright 부분 -->
+    <footer id="footerWrap">
+        <div id = "footer">
+            <!-- div class 들어갈 자리 -->
+            <!-- <p class = "logo"><img src="../../images/G3_Logo.png"> -->
+    
+            <!--div class 들어갈 자리 -->
+            <address>
+                Github : &nbsp;&nbsp;<span>https://github.com/seohyunni/G3</span><br/>
+                
+            </address>
+           <!-- <p> &nbsp;&nbsp; Email : shyunni0331@naver.com <br>-->
+        
+            <!-- div class = "copyright" 들어갈 자리-->
+            <p class="copy">Copyright 2020 &copy;  Hyeim & Seohyun & Yeowon. All rights reserved. </p>
+        </div></footer>
+</body>
+</html>
