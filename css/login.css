@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+
+/* 로그인 */
+.resplogin_wrap{width:850px;margin:0 auto 80px;padding:80px 0 50px;}
+.resplogin_wrap h3{font-size:24px;height:38px;font-weight:500;margin-bottom:11px; box-sizing:content-box}
+.resplogin_wrap h3 span{display:inline-block;height:38px;}
+.resplogin_wrap .login_box{border:1px solid #ccc;background:#f4f6f9;padding:66px 0 55px 81px;position:relative;}
+.resplogin_wrap .input_wrap{width:396px;position:relative;}
+.resplogin_wrap .input_wrap .input_box{position:relative;display:block;margin-bottom:10px;*margin-bottom:7px;}
+.resplogin_wrap .input_wrap .input_box label{font-size:16px;position:absolute; top:11px; left:13px;}
+.resplogin_wrap .input_wrap .input_text{width:236px;height:44px;padding:0 13px 0 13px;border:1px solid #ccc;font-size:16px;line-height:44px;position:relative; box-sizing:content-box}
+.resplogin_wrap .input_wrap .check_box{display:block;}
+.resplogin_wrap .input_wrap .check_box .input_check{width:16px;height:16px;margin:0;padding:0;vertical-align:middle;margin-right:3px;}
+.resplogin_wrap .input_wrap .check_box label{font-size:14px;margin-right:17px;}
+.resplogin_wrap .input_wrap .btn_submit{position:absolute; top:0; right:0;height:102px;width:122px;background:#828282;color:#fff;font-size:20px;font-weight:500;}
+.resplogin_wrap .btn_sns{position:absolute; top:66px; right:82px;width:244px;display:block}
+.resplogin_wrap .login_infor{border:1px solid #ccc;border-top:0;padding:31px 82px 22px 81px;}
+.resplogin_wrap .login_infor p{position:relative;font-size:14px;height:32px;line-height:32px;margin-bottom:8px;padding-left:33px;background:url('../../../images/middle/respond/sub/ico_login02.png') no-repeat 0 50%;}
+.resplogin_wrap .login_infor p a{display:inline-block;width:120px;height:32px;line-height:32px;color:#fff;font-weight:500;background:#a0a4a8;text-align:center;text-decoration:none;margin-left:5px;}
+.resplogin_wrap .login_infor p .btn_area{position:absolute; top:0; right:0;}.resplogin_wrap .logo_image{position:absolute;font-size:0;top:60px;right:83px}
+
+#footerWrap {position:relative; top:100px; clear:both; text-align:center; border-top:1px solid #ccc; }
+#footer {height:95px; width:1080px; margin:0 auto; padding-top:25px; text-align:left; position:relative;}
+#footer div {float:left; position: relative; height:61px; padding-left:300px; text-align:left; }
+.b_logo {position:absolute; left:0; top:35px; font-size:0; width:250px; height:40px; background:url('/design/tour/img/common/logo_bottom.gif') no-repeat 0 0; display:block;}
+#footer #botMenu {overflow:hidden;}
+#footer #botMenu li {float:left; padding:0 10px; background:url('/design/tour/img/common/footer_line.gif') no-repeat 0 2px; color:#666;}
+#footer #botMenu li:first-child {padding-left:0; background:none;}
+#footer #botMenu li.rss {padding:0 25px; background:url('/design/tour/img/common/footer_rss.gif') no-repeat 0 2px;}
+#footer #botMenu li a {display:block; font-weight:normal; font-size:13px; color:#555;}
+#footer #botMenu li a:hover {text-decoration:underline;}
+#footer address {padding-top:14px; font-style:normal;color:#666; font-size:12px;}
+#footer address a {color:#666; text-decoration:underline;}
+#footer address span {font-weight:600;}
+#footer .copy {padding-top:2px;color:#666; font-size:12px;}
