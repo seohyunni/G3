@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>G3_Great Giant Girls</title>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css" />
+  <script type="text/javascript" src="http://kenwheeler.github.io/slick/slick/slick.min.js"></script>
   <link rel="stylesheet" type="text/css" href="./css/base.css">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
   <link rel="stylesheet" type="text/css" href="./css/header.css">
@@ -27,12 +30,25 @@
                 });
             });
 
-
-            $(document).ready(function(){
-  $('.slider').slider();
-});
                 
+    /*   메인배너   */
+    $(document).ready(function () {
+    $('.slick-items').slick({
+      autoplay : true,
+      dots: true,
+      speed : 300 /* 이미지가 슬라이딩시 걸리는 시간 */,
+      infinite: true,
+      autoplaySpeed: 2000 /* 이미지가 다른 이미지로 넘어 갈때의 텀 */,
+      arrows: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      fade: false
+  
+    });
+  
+  });
   </script>
+
   
 </head>
 <body>
@@ -98,38 +114,16 @@
         <!-- Content -->
         <div id="content" class="main_wrap">
           <!----------------------------배너시작---------------------->
-          <div class="slider">
-              <ul class="slides">
-                <li>
-                  <img src="./images/main/img_visual01.jpg"> <!-- random image -->
-                  <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                  </div>
-                </li>
-                <li>
-                  <img src="./images/main/img_visual02.jpg"> <!-- random image -->
-                  <div class="caption left-align">
-                    <h3>Left Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                  </div>
-                </li>
-                <li>
-                  <img src="./images/main/img_visual03.jpg"> <!-- random image -->
-                  <div class="caption right-align">
-                    <h3>Right Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                  </div>
-                </li>
-                <li>
-                  <img src="./images/main/img_visual01.jpg"> <!-- random image -->
-                  <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                  </div>
-                </li>
-              </ul>
+          
+
+            <div class="slick-items">
+
+                <div><img src="./images/main/img_visual01.jpg"></div>
+            <div><img src="./images/main/img_visual02.jpg"></div>
+            <div><img src="./images/main/img_visual03.jpg"></div>
+
             </div>
+
 
           <!-----------------------------------배너 -------------------------------->
           <div class="section01">
