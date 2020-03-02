@@ -249,23 +249,40 @@ a{text-decoration:none; color:#666;}
 a:hover{color:#1bc1a3;}
 body, hmtl{background: #ecf0f1; font-family: 'Anton', sans-serif;}
 
-
-.slider .indicators .indicator-item {
-  background-color: #666666;
-  border: 3px solid #ffffff;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-.slider .indicators .indicator-item.active {
-  background-color: #ffffff;
+/*배너*/
+* {
+  box-sizing: border-box;
 }
 .slider {
-  width: 900px;
-  margin: 0 auto;
+    margin: 990px auto;
+  position:relative;
+  display:inline-block;
 }
-.slider .indicators {
-  bottom: 60px;
-  z-index: 100;
-  /* text-align: left; */
+.slick-slide {
+  margin: 0px 20px;
+  float:left;
+  position:relative;
+}
+.slick-slide img {
+  position:relative;
+}
+.slick-dotted.slick-slider {
+  margin:auto 990px;
+  margin-bottom: 30px;
+  position:relative;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.slick-active {
+  opacity: .5;
+}
+.slick-current {
+  opacity: 1;
 }
