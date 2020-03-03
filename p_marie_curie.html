@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./images/G3_Logo.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G3_마리 퀴리</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/bunya_list.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+                  $('.topMenu').mouseover(function () {
+                      $('.dept01').slideDown(10);
+                  });
+              });
+    $(document).ready(function () {
+                  $('.topMenu').mouseleave(function () {
+                      $('.dept01').slideUp(10);
+                  });
+              });
+  
+    </script>
+    
+    <!--사이드 메뉴 바 마우스 올리면 색 변함-->
+    
+
+</head>
+<body>
+
+ 
+<!--HEADER-->
+
+<div class="header">
+    <p class="logo">
+      <a href="./index.html"><img src="./images/G3_Logo.png" width=140 height=80 alt="G3_Logo"></a>
+    </p>
+    <div class="searchbar">
+      <input class="search_input" type="text" name="" >
+      <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+    </div>
+    <div class="login">
+      <a href="./login.html">로그인</a>
+      <span class="bar">|</span>
+      <a href="./sign_up.html">회원가입</a>
+    </div>
+  </div>
+
+
+
+  <!--메뉴바-->
+
+  <div class="topMenu-background">
+    <div class="topMenu">
+        <ul class="menu01">
+            <li><span>시대별</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+            <li><span>분야별</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+            <li><span>소통관</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+            <li><span>자료실</span>
+                <ul class="dept01">
+                    <li id="nop">sub01</li>
+                    <li id="nop">sub02</li>
+                    <li id="nop">sub03</li>
+                    <li id="nop">sub04</li>
+                    <li id="nop">sub05</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+  </div>
+
+
+  <!-- --------------------상단고정---------------------- -->
+
+
+    <!-- SIDE MENU BAR -->
+
+
+  <ul>
+    <div id ="side_left">
+        <div id="side_left_box">
+    <center>
+        <br>
+        <p>
+        <h3 class = "title"> 위인 보기 </h3>
+        
+        <ul class='snb'><li class='hover'>
+        <a href = "./sidae.html" target="self" >시대별 위인 보기</a></li>
+        <ul class='snb'><li class='hover'>
+        <a href = "./bunya.html" target="self" class="active">분야별 위인 보기</a></li>
+        <ul class='snb'><li class='hover'>
+       
+    </center></div></div>
+</ul>
+
+
+<!--위인-->
+
+<div class="content" id="content">
+		
+		
+		
+		
+		
+    <div class="tit">
+        <h3>물리학 분야 위인 </h3>
+        <p class="navi"><span class="float-left">G3</span> <span class="float-right">
+            Home > 분야별 위인 > 과학 > 물리학 > <strong>마리 퀴리</strong></span></p>
+    </div>
+    <div class="section data_view">
+        <div class="view_01">
+            <div class="view_img">
+                
+                    <img src="./images/Marie_Curie.jpg"  style="width:207px; height:268px;" alt="마리 퀴리">
+                
+            </div>
+            <div class="view_info">
+                <p class="info_tit">마리 퀴리 (Marie Curie)</p>
+                <dl>
+                    <dt>분야</dt>
+                    <dd>화학, 물리학</dd>
+                    <dt>출생 및<br>사망</dt>
+                    <dd>출생 > 1867년 11월 7일<br>
+                        사망 > 1934년 7월 4일
+                    </dd>
+                    <dt>업적 요약</dt>
+                    <dd>최초의 방사성 원소 폴로늄과 라듐을 발견했다.<br><br></dd>
+                    <dt>업적 상세</dt>
+                    <dd>1895년 남편인 피에르 퀴리와 공동으로 연구 생활을 시작하였다.<br><br>
+                        토륨도 우라늄과 마찬가지의 방사선을 방사한다는 것을 발견하고, 그것을 '방사능'이라 명명하였다.<br><br>
+                        또한 방사능이 원자 자체의 성질이라는 것을 알아냈다.<br><br>
+                        여러 가지 시료에 대하여 측정하던 중 우연히 우라늄 광물 피치블렌드가 우라늄 자체보다도 강한 방사능을 보인다는 것을 알고, 그 속에 미지의 강한 방사성 성분이 존재할 것이라고 추정, 이것의 추출을 시도하였다.<br><br>
+                        보헤미아의 요아힘스탈에서 산출되는 피치블렌드에서 방사되는 방사능을 바탕으로 화학 분석을 했다.(방사화학분석법의 시초)<br><br>
+                        1898년 7월 폴로늄을 발견하였고 이어 그해 12월 라듐을 발견하였다.<br><br>
+                        이 두 원소는 방사성 원소로서 발견된 최초의 것으로, 특히 라듐은 우라늄에 비하여 훨씬 강한 방사능을 가진다는 점에서 중요한 의미를 지닌다.<br><br>
+                        이 발견은 방사성 물질에 대한 학계의 관심을 불러일으켜, 새 방사성 원소를 탐구하는 계기를 만들었다.<br>
+                        이러한 업적으로 1903년 퀴리 부부는 베크렐과 함께 노벨 물리학상을 받았다.<br><br>
+                        남편이 사망한 뒤에도 단독으로 방사성 물질을 계속 연구하였다.<br><br>
+                        1907년 라듐 원자량을 더욱 정밀하게 측정하는 데 성공하고, 1910년에 금속 라듐을 분리하는 데도 성공하였다.<br><br>
+                        1906년 5월에는 최초의 여성 소르본 대학 교수가 되었고, 1914년 소르본 대학에서는 그녀가 연구에 더욱 집중할 수 있도록 라듐연구소를 건립하였다.<br><br>
+                        제 1차 세계대전 중 장녀 이렌과 함께 부상자 치료를 위해 뢴트겐 투사기를 보급하는데 노력하였고 많은 부상자들이 목숨을 구하였다.<br><br>
+                        이 공로를 인정받아 파리 의학아카데미의 회원이 되었다.<br><br>
+                        라듐연구소는 이후 파스퇴르 실험소와 퀴리 실험소가 되었는데, 그녀는 퀴리 실험소 소장으로서 프랑스의 과학 연구에 공헌하였다.<br><br>
+                        1911년 라듐과 폴로늄 발견으로 노벨 화학상을 받았다.<br><br>
+                        이후 연구소의 운영은 물리학자인 장녀 이렌에게 맡겼으며, 이렌은 마리 퀴리의 실험 조수로 있던 사람과 결혼한 뒤 1935년 남편과 함께 인공 방사능을 발견한 공로로 노벨화학상을 받았다.
+
+
+
+
+
+
+                    </dd>
+                    
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+<!-- 하단 copyright 부분 -->
+<footer id="footerWrap">
+    <div id = "footer">
+        <!-- div class 들어갈 자리 -->
+        <!-- <p class = "logo"><img src="../../images/G3_Logo.png"> -->
+
+        <!--div class 들어갈 자리 -->
+        <address>
+            Github : &nbsp;&nbsp;<span>https://github.com/seohyunni/G3</span><br/>
+            
+        </address>
+       <!-- <p> &nbsp;&nbsp; Email : shyunni0331@naver.com <br>-->
+    
+        <!-- div class = "copyright" 들어갈 자리-->
+        <p class="copy">Copyright 2020 &copy;  Hyeim & Seohyun & Yeowon. All rights reserved. </p>
+    </div></footer>
+
+</body>
+</html>
