@@ -265,7 +265,7 @@ body, hmtl{background: #ecf0f1; font-family: 'Anton', sans-serif;}
 .slick-background{
   width:100%;
   background:url('../images/main/img_visual01.jpg') repeat 0 0;
-  background-color:rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1000px rgba(255,255,255,.6);
 }
 
 * {
