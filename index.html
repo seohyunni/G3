@@ -45,8 +45,31 @@
       fade: false
   
     });
-  
   });
+
+/*      하단 배너    */
+  $(document).ready(function () {
+    $('.slick-items').slick({
+      autoplay : true,
+      dots: true,
+      speed : 300 /* 이미지가 슬라이딩시 걸리는 시간 */,
+      infinite: true,
+      autoplaySpeed: 5000 /* 이미지가 다른 이미지로 넘어 갈때의 텀 */,
+      arrows: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      fade: false
+  
+    });
+  });
+
+  $(".relative_site_items").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+		
   </script>
 
   
@@ -130,7 +153,7 @@
           <div class="section01">
             <div class="col01">
               <h2>관련 영상</h2>
-              <p><iframe width="440" height="300" src="https://www.youtube.com/embed/oflqMPMyLBM" frameborder="0"
+              <p><iframe width="460" height="300" src="https://www.youtube.com/embed/oflqMPMyLBM" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
               <p class="more"><a href="/pages/s04/page.html?mc=7335" title="관련 영상">+more</a></p>
             </div>
@@ -152,105 +175,30 @@
 
             <!-------------------------------------후원 배너-------------------------------------------------->
             <div class="mLecture">
-              <div class="list">
-              <!-- slick -->
-              <div class="slick_lecNew slick-initialized slick-slider" style="padding:20px;">
-                <button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: inline-block;">Previous</button>
-                
-                <div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5364px; transform: translate3d(-894px, 0px, 0px);" role="listbox"><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide29" data-slick-index="-3" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10201320" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/7/26/10201320/61855637115250364_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">생존수영</span>
-                    </a>
-                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide210" data-slick-index="-2" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10033013" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/10/10033013/39243646365133150_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">엉뚱 남매 공작소</span>
-                    </a>
-                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide211" data-slick-index="-1" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10018975" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10018975/10018975.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">오 마이 미래 2035 - 미래토크</span>
-                    </a>
-                  </div><div class="rect_array slick-slide slick-current slick-active" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide20" data-slick-index="0" aria-hidden="false">
-                    <a href="/CPG/course/view?courseId=10022923" tabindex="0">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10022923/10022923.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">어휘랑! 교과서 한자어를 찾아라! 2</span>
-                    </a>
-                  </div><div class="rect_array slick-slide slick-active" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide21" data-slick-index="1" aria-hidden="false">
-                    <a href="/CPG/course/view?courseId=10200890" tabindex="0">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/7/1/10200890/59696414803478495_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">야옹! 클래식</span>
-                    </a>
-                  </div><div class="rect_array slick-slide slick-active" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide22" data-slick-index="2" aria-hidden="false">
-                    <a href="/CPG/course/view?courseId=10033014" tabindex="0">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/10/10033014/38703119963972090_course.gif" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">과학할고양</span>
-                    </a>
-                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide23" data-slick-index="3" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10019195" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10019195/10019195.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">오 마이 미래 2035  - 신(新) 극한직업</span>
-                    </a>
-                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide24" data-slick-index="4" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10022877" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10022877/10022877.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">달그락 달그락 교과서 실험실</span>
-                    </a>
-                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide25" data-slick-index="5" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10034553" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/4/29/10034553/54235033375808606_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">엉뚱 남매 요리조리쇼</span>
-                    </a>
-                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide26" data-slick-index="6" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10023173" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/3/26/10023173/51302649539364876_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">배움너머</span>
-                    </a>
-                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide27" data-slick-index="7" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10023753" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10023753/10023753.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">스쿨랜드 - 초등생활 매너백서</span>
-                    </a>
-                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide28" data-slick-index="8" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10027993" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/12/10027993/39404372885255636_course.gif" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">과학땡Q</span>
-                    </a>
-                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide29" data-slick-index="9" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10201320" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/7/26/10201320/61855637115250364_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">생존수영</span>
-                    </a>
-                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide210" data-slick-index="10" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10033013" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/10/10033013/39243646365133150_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">엉뚱 남매 공작소</span>
-                    </a>
-                  </div><div class="rect_array slick-slide" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide211" data-slick-index="11" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10018975" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10018975/10018975.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">오 마이 미래 2035 - 미래토크</span>
-                    </a>
-                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide20" data-slick-index="12" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10022923" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2016/12/19/10022923/10022923.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">어휘랑! 교과서 한자어를 찾아라! 2</span>
-                    </a>
-                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide21" data-slick-index="13" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10200890" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2019/7/1/10200890/59696414803478495_course.jpg" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">야옹! 클래식</span>
-                    </a>
-                  </div><div class="rect_array slick-slide slick-cloned" style="width: 296px;" tabindex="-1" role="option" aria-describedby="slick-slide22" data-slick-index="14" aria-hidden="true">
-                    <a href="/CPG/course/view?courseId=10033014" tabindex="-1">
-                      <span class="thumb"><img src="https://cbox.ebs.co.kr/course/2018/10/10/10033014/38703119963972090_course.gif" alt="" onerror="this.src='/images/primary/com/no_image_lecture.gif'"></span>
-                      <span class="txt">과학할고양</span>
-                    </a>
-                  </div></div></div><button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: inline-block;">Next</button></div>
-              <!-- //slick -->
+                <h2>관련 사이트
+                    </h2>
+                    <section class="relative_site_items" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+                        <div>
+                          <img src="http://placehold.it/350x300?text=1">
+                        </div>
+                        <div>
+                          <img src="http://placehold.it/350x300?text=2">
+                        </div>
+                        <div>
+                          <img src="http://placehold.it/350x300?text=3">
+                        </div>
+                        <div>
+                          <img src="http://placehold.it/350x300?text=4">
+                        </div>
+                        <div>
+                          <img src="http://placehold.it/350x300?text=5">
+                        </div>
+                        <div>
+                          <img src="http://placehold.it/350x300?text=6">
+                        </div>
+                      </section>
+                  </div>
               </div>
-            </div>
           </div>
         </div>
         <!-- // Content -->
