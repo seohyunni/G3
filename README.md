@@ -6,8 +6,10 @@
 ### BUILT WITH
 - HTML5
 - CSS3
+- javascript
 - JQuery
 - mysql
+
 
 ### FEATURE
 - **메인 페이지**
