@@ -66,6 +66,7 @@
 
 
 .preserv .preserv_info {
+    position:relative;
 	border:1px solid #ddd; 
 	border-radius: 3px;
 	padding:20px 30px 20px 20px;
@@ -75,8 +76,8 @@
 .sub_box1 {padding-top:10px;}
 .sub_box1 ul.list1 {margin-left:-15px; margin-bottom:45px;}
 .sub_box1 ul.list1 li {float:left; margin-left:15px; transition:0.3s;}
-.sub_box1 ul.list1 li .img {height:174px; width:150px;}
-.sub_box1 ul.list1 li p {text-align:center; font-size:13px; color:#fff; font-weight:600; padding-top:12px; padding-bottom:14px; line-height:18px;}
+.sub_box1 ul.list1 li .img {height:160px; width:150px;}
+.sub_box1 ul.list1 li p {position:relative;text-align:center; font-size:13px; color:#fff; font-weight:600; padding-top:12px; padding-bottom:14px; line-height:18px;}
 .sub_box1 ul.list1 li.b1  {background:#cbc1bc;}
 .sub_box1 ul.list1 li.b2  {background:#b1acbc;}
 .sub_box1 ul.list1 li.b3  {background:#ba9696;}
@@ -97,8 +98,8 @@
 }
 .gallery_04 dl {
 	background-color: #fff;
-	width: 273px; 
-	height:405px;
+	width: 260px; 
+	height:450px;
 	position: relative;
 	float: left;
 	margin-right:20px;
@@ -111,7 +112,7 @@
 }
 .gallery_04 dl dt img {
     
-	width: 260px;
+	width: 250px;
 	height:250px;
 }
 .gallery_04 dl dd {
