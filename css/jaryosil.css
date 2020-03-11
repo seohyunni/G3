@@ -11,6 +11,7 @@
   
   position: relative;
   }
+  
 #side_left .title{
   margin-bottom:17px;
 }
@@ -87,7 +88,9 @@
 .sitelink ul{margin-bottom: 35px;float: left; width:222px; height:130px; text-align:center;}
 .sitelink ul .logo{margin-bottom: 10px;border:1px solid #dfdfdf; }
 .sitelink ul a:link{color:#426690;}
+.sitelink ul a:hover{background-color: rgb(255, 255, 255); position: relative;}
 .sitelink ul a:visited{color:#426690;}
+
 
 
 
