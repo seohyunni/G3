@@ -1,6 +1,6 @@
 # G3
-> 우리가 모르고 살고 있는 여성 위인들을 원하는 정보에 따라 시대별, 분야별로 알아볼 수 있는 웹사이트. HTML, CSS로 진행하였고 JQuery, mysql 등을 이용할 예정.
- - 개발 시점 : 2020년 2월
+> 우리가 모르고 살고 있는 여성 위인들을 원하는 정보에 따라 시대별, 분야별로 알아볼 수 있는 웹사이트. HTML, CSS, javascript, JQuery로 진행하였고 firebase, Node.js 등을 이용할 예정.
+ - 개발 시점 : 2020년 2월 ~
  
 
 ### BUILT WITH
@@ -8,7 +8,8 @@
 - CSS3
 - javascript
 - JQuery
-- mysql
+- firebase
+- Node.js
 
 
 ### FEATURE
@@ -23,7 +24,7 @@
 
 - **시대별 위인 알아보기**
 
-    - 17세기부터 1세기씩 `시대별 위인`을 알아볼 수 있습니다.
+    - 17세기 이전부터 20세기 이후까지 1세기씩 `시대별 위인`을 알아볼 수 있습니다.
     
   
 - **분야별 위인 알아보기**
@@ -48,8 +49,8 @@
 ### CONTACT
 - DEVELOPER
 
-  - Seohyun Lee - [s2018w35@e-mirim.hs.kr]
-  - Hyerim Seo - [s2018w32@e-mirim.hs.kr]
+  - Seohyun Lee - [s2018w35@e-mirim.hs.kr] , [https://github.com/seohyunni]
+  - Hyerim Seo - [s2018w32@e-mirim.hs.kr] , [https://github.com/sunrim]
   
   
 - DESIGNER
