@@ -114,8 +114,8 @@ body, hmtl{background: #ecf0f1; font-family: 'Anton', sans-serif;}
   .mLecture .slick-next, .mLecture .slick-prev {display:none;}
   .mLecture .slick-next,
   .mLecture .slick-prev {position: absolute;top:-50px;left:auto;overflow:hidden;width:25px;height:0;padding-top:25px;margin:0;z-index:10;cursor:pointer;}
-  .mLecture .slick-next {right:7px;background:url('../images/main/btn_prevNext.png') no-repeat -24px 0;}
-  .mLecture .slick-prev {right:31px;background:url('../images/main/btn_prevNext.png') no-repeat 0 0;}
+  .mLecture .slick-next {right:7px;background:url('../images/btn_prevNext.png') no-repeat -24px 0;}
+  .mLecture .slick-prev {right:31px;background:url('../images/btn_prevNext.png') no-repeat 0 0;}
   .mLecture .slick-dots {display:none;}
     
   .mLecture .slick-slide { margin: 0px 20px; float:left; position:relative; height:100px;}
