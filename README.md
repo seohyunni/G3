@@ -1,5 +1,5 @@
 # G3
-> 우리가 모르고 살고 있는 여성 위인들을 원하는 정보에 따라 시대별, 분야별로 알아볼 수 있는 웹사이트. HTML, CSS, javascript, JQuery로 진행하였고 firebase, Node.js 등을 이용할 예정.
+> 우리가 모르고 살고 있는 여성 위인들을 원하는 정보에 따라 시대별, 분야별로 알아볼 수 있는 웹사이트. HTML, CSS, javascript, JQuery로 진행하였고 firebase, Node.js 등을 이용하여 개발 중입니다.
  - 개발 시점 : 2020년 2월 ~
  
 
